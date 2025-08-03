@@ -153,7 +153,7 @@ const SchoolRegistrationForm: React.FC = () => {
         "Uchqo‘rg‘on tumani",
         "Uychi tumani",
         "Yangiqo‘rg‘on tumani",
-        // "Boshqa"
+        "Boshqa"
     ];
 
 
