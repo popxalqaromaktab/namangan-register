@@ -214,13 +214,13 @@ const SchoolRegistrationForm: React.FC = () => {
 
 📅 Vaqt: ${new Date().toLocaleString('uz-UZ')}`;
 
-        const response = await fetch('https://api.telegram.org/bot8429768210:AAEQdhg6N34fvsbM5HhZm98G0QQRVzSZywk/sendMessage', {
+        const response = await fetch('https://api.telegram.org/bot8387813973:AAFnqhfYlEsA0KWkmLbsmJvQ8NccIrsT-uU/sendMessage', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                chat_id: '-1002629133065', // Bu yerga o'z chat ID'ingizni qo'ying
+                chat_id: '-1002791697023', // Bu yerga o'z chat ID'ingizni qo'ying
                 text: message,
                 parse_mode: 'HTML'
             }),
